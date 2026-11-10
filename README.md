@@ -1,83 +1,49 @@
 # CoffeeCorner
 
-CoffeeCorner is a responsive Vue 3 portfolio demo based on the supplied Brew & Co. desktop and mobile composition. Milestones 1–4 provide the responsive page, original imagery and vector branding, interactive menu, story, sample location, photographic CTA and local newsletter demo. Final calibration and delivery checks remain Milestone 5.
+A responsive Vue 3 + JavaScript portfolio demo, built with Vite from the supplied Brew & Co. desktop/mobile composition. All five implementation milestones are complete. See the [final review and readiness table](docs/milestone-5-review.md).
 
-## Run locally
+## Run and build
 
-Requirements: Node.js 22.18 or later and npm.
+Requires Node.js 22.18+ and npm; verified with Node 24.21.0.
 
 ```sh
-npm install
+npm ci
 npm run dev
-```
-
-Create and preview a production build:
-
-```sh
 npm run build
 npm run preview
 ```
 
-The app uses Vue single-file components with JavaScript. TypeScript, routing, a state library, backend services, ordering, payment, and live newsletter delivery are outside the project scope.
+Serve the contents of `dist/` at the root of a static host after building. Dynamic menu image URLs use `/assets/`, so nested-path hosting needs an asset-path adjustment and revalidation. No environment variables or backend are needed. Hosting and a public deployment have not been verified.
 
-## Current structure
+## Demo behavior
 
-The page follows this semantic order:
+- Navigation, View Menu, Find Us and Order Now scroll to page sections; no order or payment is created.
+- Coffee shows the four reference featured products. Other categories filter locally; View Full Menu expands six sample items.
+- Mobile navigation supports keyboard use, Escape, outside click and focus exit.
+- Newsletter input uses native email validation and a local acknowledgement. Nothing is sent or stored.
+- Address, hours, phone and email are sample portfolio content. Get Directions opens a labeled Google Maps search; no real storefront or precise pin is verified.
+- Social icons and legal labels are decorative, without invented destinations.
 
-1. site header and primary navigation;
-2. hero;
-3. featured menu;
-4. story;
-5. location;
-6. photographic call to action;
-7. footer.
+## Design and assets
 
-Shared colors, spacing, typography, container sizing, focus treatment, and responsive rules live in `src/styles.css`. The layout moves from wide two-column compositions to single-column sections below 700 px. The menu changes from four columns to two below 900 px and to compact rows below 480 px. The header collapses below 701 px. Milestone 3–4 captures cover 320/375/390/768/1280/1440 px. Mobile uses an image-first story, map above contact details, compact photographic CTA and stacked footer.
+`src/App.vue` composes seven sections; `src/components/` holds their Vue SFCs and `src/styles.css` holds the design tokens and responsive rules. No TypeScript, router or state library is used.
 
-## Visual comparison protocol
+Seven photographs were generated for this project and exported as responsive WebP with JPEG fallbacks. The logo variants, favicon and illustrative map are original SVGs. Generation provenance, prompts, dimensions and crop notes are in the [asset manifest](docs/asset-manifest.md). Fonts use local Nimbus faces with Georgia/Arial fallbacks; exact metrics vary by platform.
 
-The composite reference is presentation scaled. Compare only the desktop page panel and the page inside the phone; exclude the phone frame, notch, and surrounding white canvas.
+The reference `coffee_corner_design.png` is never served as production artwork. Visual reviews compare the desktop panel and the page inside the phone, excluding its frame. Primary captures use 1440×900 and 390×844, with reflow checks at 1280/768/375/320 px. [Final evidence](docs/evidence/milestone-5/) and the [comparison ledger](docs/visual-evidence-ledger.md) record section proportions, type, crops and justified differences: original photography/map, system fonts and honest demo labels.
 
-- Primary captures: 1440 × 900 desktop and 390 × 844 mobile.
-- Reflow checks: 1280, 768, 375, and 320 px widths.
-- Compare section proportions, line wrapping, color blocks, spacing, image focal points, desktop grids, mobile rows, content order, CTA, and footer density.
-- Record material differences in a discrepancy ledger and recapture after each accepted correction.
-- Use pixel differences only as diagnostics because original production photography will differ from the reference.
+## Verification
 
-## Original asset system
-
-| Slot | Desktop intent | Mobile intent |
-| --- | --- | --- |
-| Hero café and latte | Wide atmospheric scene; latte anchored right; dark copy space left | Tall crop with copy readable above the cup |
-| Four menu products | Individual landscape card images | Compact square or near-square row thumbnails |
-| Story interior | Warm café interior on the right | Image-first crop above story copy |
-| Location map | Wide original stylized SVG | Map above the contact details |
-| CTA takeaway cup | Cup and hand on the right with copy space left | Compact crop with the cup still recognizable |
-| Brand | Original dark/light SVG lockups and favicon | Small, legible condensed lockup |
-
-The seven photographs were generated specifically for this project and exported as responsive WebP files with optimized JPEG fallbacks. The logo, compact lockup, light/dark variants, cup mark, and favicon are original hand-authored SVGs. Full generation provenance, prompts, dimensions, focal points, alt text, and export decisions are recorded in `docs/asset-manifest.md`.
-
-The supplied `coffee_corner_design.png` is a visual reference and is never shipped or requested as production page artwork. Order Now and View Menu scroll to the sample menu; Find Us scrolls to the location section. This is a portfolio demo with no ordering or payment service. The Coffee category intentionally shows the four mixed featured items from the reference; other categories filter locally. View Full Menu expands a local sample menu with no dialog or focus trap. The mobile navigation supports Escape, outside click and keyboard focus exit. The newsletter form uses native email validation and shows a local-only acknowledgement: no subscription, request or storage write occurs. Sample contact details are plain text, not verified business contacts. Get Directions opens a Google Maps search for the sample address; the original SVG map is illustrative, not accurate cartography. Social icons and legal labels are noninteractive presentation because no real destinations were provided.
-
-
-## Milestone 3 verification
-
-Build with `npm run build`. The browser regression script uses Playwright and a running dev or preview server:
+Start the production preview first. Browser checks require an external Playwright installation; the shipped app has no testing dependency. Set `PLAYWRIGHT_MODULE` to its module path and `CHROME_PATH` to a compatible executable when needed.
 
 ```sh
-BASE_URL=http://127.0.0.1:5173 node scripts/verify-milestone-3.mjs
-```
-
-Use a local Playwright installation, or set `PLAYWRIGHT_MODULE` to an existing Playwright module path. Set `CHROME_PATH` to a system Chrome executable if needed. No browser-testing package is required by the shipped app. The script saves viewport screenshots and observed results to `docs/evidence/milestone-3/`; `docs/milestone-3-review.md` records the visual and review gates. Browser results apply to Chromium; Firefox and Safari remain unverified.
-
-
-## Milestone 4 verification
-
-The new sections have a dedicated production-browser check; the earlier regression can save its evidence separately:
-
-```sh
+BASE_URL=http://127.0.0.1:4173 node scripts/verify-milestone-3.mjs
 BASE_URL=http://127.0.0.1:4173 node scripts/verify-milestone-4.mjs
-BASE_URL=http://127.0.0.1:4173 EVIDENCE_PATH=docs/evidence/milestone-4/regression node scripts/verify-milestone-3.mjs
+AXE_PATH=/path/to/axe-core/axe.min.js BASE_URL=http://127.0.0.1:4173 node scripts/verify-milestone-5.mjs
 ```
 
-The same `PLAYWRIGHT_MODULE` and `CHROME_PATH` options apply. New evidence is stored in `docs/evidence/milestone-4/`. See `docs/milestone-4-review.md` for the visual ledger, findings and revalidation. The directions test observes the actual new-tab URL while fulfilling the external navigation locally; it does not verify Google Maps results or a real storefront.
+Use `EVIDENCE_PATH` to save a new run separately. Milestones 3/4 cover interactions, six viewport widths, screenshots and runtime errors. Milestone 5 runs axe and keyboard-only desktop/mobile journeys with normal/reduced motion. Install audit tools separately (for example in `/tmp`): `lighthouse@12.8.2` and `axe-core@4.10.3`. The final report records the Lighthouse commands.
+
+Observed results: all 30 regression checks and four final rehearsals PASS; eight axe scans report zero violations. Lighthouse 12.8.2 scores performance/accessibility/best practices **97/100/100 mobile**, **100/100/100 desktop** on the local production preview. A clean-copy `npm ci --offline` and build pass. These are local lab results, not field measurements or full WCAG certification.
+
+Firefox/Safari, physical devices, screen-reader testing, live Maps results and public hosting remain **NOT VERIFIED**. Automated contrast checks cannot resolve photographic/pseudo-element backgrounds; those were visually reviewed, with solid-color contrast separately measured. Detailed evidence, review findings and remaining limitations are in the [final review](docs/milestone-5-review.md).

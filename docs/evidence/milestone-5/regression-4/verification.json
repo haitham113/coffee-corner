@@ -1,0 +1,396 @@
+{
+  "date": "2026-11-10T12:17:44.520Z",
+  "browser": "157.0.8103.38",
+  "baseURL": "http://127.0.0.1:4173",
+  "results": [
+    {
+      "name": "320px: reflow, images, content order and photo coverage",
+      "status": "PASS",
+      "detail": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "brokenImages": [],
+        "storyImage": {
+          "top": 1619.703125,
+          "bottom": 1907.703125,
+          "left": 0,
+          "right": 320,
+          "height": 288
+        },
+        "storyCopy": {
+          "top": 1907.703125,
+          "bottom": 2250.609375,
+          "left": 0,
+          "right": 320,
+          "height": 342.90625
+        },
+        "map": {
+          "top": 2771.40625,
+          "bottom": 2962.4375,
+          "left": 16,
+          "right": 304,
+          "height": 191.03125
+        },
+        "contact": {
+          "top": 2994.4375,
+          "bottom": 3390.625,
+          "left": 16,
+          "right": 304,
+          "height": 396.1875
+        },
+        "cta": {
+          "top": 3438.625,
+          "bottom": 3726.625,
+          "left": 0,
+          "right": 320,
+          "height": 288
+        },
+        "ctaPhoto": {
+          "top": 3438.625,
+          "bottom": 3726.734375,
+          "left": -192,
+          "right": 480,
+          "height": 288.109375
+        }
+      }
+    },
+    {
+      "name": "375px: reflow, images, content order and photo coverage",
+      "status": "PASS",
+      "detail": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "brokenImages": [],
+        "storyImage": {
+          "top": 1603.1875,
+          "bottom": 1940.6875,
+          "left": 0,
+          "right": 375,
+          "height": 337.5
+        },
+        "storyCopy": {
+          "top": 1940.6875,
+          "bottom": 2223.765625,
+          "left": 0,
+          "right": 375,
+          "height": 283.078125
+        },
+        "map": {
+          "top": 2744.5625,
+          "bottom": 2967.21875,
+          "left": 16,
+          "right": 359,
+          "height": 222.65625
+        },
+        "contact": {
+          "top": 2999.21875,
+          "bottom": 3395.40625,
+          "left": 16,
+          "right": 359,
+          "height": 396.1875
+        },
+        "cta": {
+          "top": 3443.40625,
+          "bottom": 3731.40625,
+          "left": 0,
+          "right": 375,
+          "height": 288
+        },
+        "ctaPhoto": {
+          "top": 3443.40625,
+          "bottom": 3731.515625,
+          "left": -225,
+          "right": 447,
+          "height": 288.109375
+        }
+      }
+    },
+    {
+      "name": "390px: reflow, images, content order and photo coverage",
+      "status": "PASS",
+      "detail": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "brokenImages": [],
+        "storyImage": {
+          "top": 1607.25,
+          "bottom": 1958.25,
+          "left": 0,
+          "right": 390,
+          "height": 351
+        },
+        "storyCopy": {
+          "top": 1958.25,
+          "bottom": 2245.03125,
+          "left": 0,
+          "right": 390,
+          "height": 286.78125
+        },
+        "map": {
+          "top": 2765.828125,
+          "bottom": 2997.109375,
+          "left": 16,
+          "right": 374,
+          "height": 231.28125
+        },
+        "contact": {
+          "top": 3029.109375,
+          "bottom": 3425.296875,
+          "left": 16,
+          "right": 374,
+          "height": 396.1875
+        },
+        "cta": {
+          "top": 3473.296875,
+          "bottom": 3761.296875,
+          "left": 0,
+          "right": 390,
+          "height": 288
+        },
+        "ctaPhoto": {
+          "top": 3473.296875,
+          "bottom": 3765.90625,
+          "left": -234,
+          "right": 448.5,
+          "height": 292.609375
+        }
+      }
+    },
+    {
+      "name": "768px: reflow, images, content order and photo coverage",
+      "status": "PASS",
+      "detail": {
+        "viewport": 768,
+        "scrollWidth": 768,
+        "brokenImages": [],
+        "storyImage": {
+          "top": 2047.765625,
+          "bottom": 2476.5,
+          "left": 333.59375,
+          "right": 744,
+          "height": 428.734375
+        },
+        "storyCopy": {
+          "top": 2079.765625,
+          "bottom": 2344.5,
+          "left": 24,
+          "right": 401.140625,
+          "height": 264.734375
+        },
+        "map": {
+          "top": 2731.6875,
+          "bottom": 2994.484375,
+          "left": 331.1875,
+          "right": 744,
+          "height": 262.796875
+        },
+        "contact": {
+          "top": 2731.6875,
+          "bottom": 3127.875,
+          "left": 24,
+          "right": 299.1875,
+          "height": 396.1875
+        },
+        "cta": {
+          "top": 3191.875,
+          "bottom": 3559.875,
+          "left": 0,
+          "right": 768,
+          "height": 368
+        },
+        "ctaPhoto": {
+          "top": 3191.875,
+          "bottom": 3603.46875,
+          "left": -153.59375,
+          "right": 806.40625,
+          "height": 411.59375
+        }
+      }
+    },
+    {
+      "name": "1280px: reflow, images, content order and photo coverage",
+      "status": "PASS",
+      "detail": {
+        "viewport": 1280,
+        "scrollWidth": 1280,
+        "brokenImages": [],
+        "storyImage": {
+          "top": 1751.484375,
+          "bottom": 2292.8125,
+          "left": 553.75,
+          "right": 1256,
+          "height": 541.328125
+        },
+        "storyCopy": {
+          "top": 1805.875,
+          "bottom": 2118.421875,
+          "left": 24,
+          "right": 669.328125,
+          "height": 312.546875
+        },
+        "map": {
+          "top": 2568.671875,
+          "bottom": 3002.59375,
+          "left": 545.59375,
+          "right": 1256,
+          "height": 433.921875
+        },
+        "contact": {
+          "top": 2568.671875,
+          "bottom": 3002.59375,
+          "left": 24,
+          "right": 497.59375,
+          "height": 433.921875
+        },
+        "cta": {
+          "top": 3079.390625,
+          "bottom": 3447.390625,
+          "left": 0,
+          "right": 1280,
+          "height": 368
+        },
+        "ctaPhoto": {
+          "top": 3047.390625,
+          "bottom": 3596.1875,
+          "left": 0,
+          "right": 1280,
+          "height": 548.796875
+        }
+      }
+    },
+    {
+      "name": "1440px: reflow, images, content order and photo coverage",
+      "status": "PASS",
+      "detail": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "brokenImages": [],
+        "storyImage": {
+          "top": 1888.21875,
+          "bottom": 2485.328125,
+          "left": 630.390625,
+          "right": 1360,
+          "height": 597.109375
+        },
+        "storyCopy": {
+          "top": 1955.40625,
+          "bottom": 2298.140625,
+          "left": 80,
+          "right": 750.46875,
+          "height": 342.734375
+        },
+        "map": {
+          "top": 2777.109375,
+          "bottom": 3227.59375,
+          "left": 620.796875,
+          "right": 1360,
+          "height": 450.484375
+        },
+        "contact": {
+          "top": 2777.109375,
+          "bottom": 3227.59375,
+          "left": 80,
+          "right": 572.796875,
+          "height": 450.484375
+        },
+        "cta": {
+          "top": 3313.984375,
+          "bottom": 3724.375,
+          "left": 0,
+          "right": 1440,
+          "height": 410.390625
+        },
+        "ctaPhoto": {
+          "top": 3277.984375,
+          "bottom": 3895.375,
+          "left": 0,
+          "right": 1440,
+          "height": 617.390625
+        }
+      }
+    },
+    {
+      "name": "Contact details are sample text and social/legal labels have no dead links",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Directions opens a new tab searching the sample address",
+      "status": "PASS",
+      "detail": {
+        "destination": "https://www.google.com/maps/search/?api=1&query=123%20Coffee%20Street%2C%20Cairo%2C%20Egypt",
+        "providerContent": "NOT VERIFIED; external navigation fulfilled locally"
+      }
+    },
+    {
+      "name": "Newsletter empty and invalid input: native validation, no success",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Newsletter valid keyboard submission: local-only status, no requests or storage",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "CTA and every desktop footer anchor reach existing sections",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "320px keyboard focus, target sizes and form reflow",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Solid foreground/background contrast on new essential content and controls",
+      "status": "PASS",
+      "detail": [
+        {
+          "selector": ".location-demo-note",
+          "ratio": 5.638615711893014
+        },
+        {
+          "selector": ".contact-list dd",
+          "ratio": 8.717725265673542
+        },
+        {
+          "selector": ".newsletter-note",
+          "ratio": 9.55438006020973
+        },
+        {
+          "selector": ".footer-bottom",
+          "ratio": 9.55438006020973
+        },
+        {
+          "selector": "#newsletter-email",
+          "ratio": 16.0950295486793
+        },
+        {
+          "selector": ".newsletter-field button",
+          "ratio": 5.170839220164261
+        },
+        {
+          "selector": ".directions-link",
+          "ratio": 5.170839220164261
+        },
+        {
+          "selector": ".story-copy > p:last-child",
+          "ratio": 12.40217778403842
+        }
+      ]
+    },
+    {
+      "name": "Mobile touch: demo newsletter and CTA",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Runtime console, network and images",
+      "status": "PASS",
+      "detail": ""
+    }
+  ],
+  "errors": [],
+  "failures": []
+}

@@ -1,0 +1,14 @@
+2026-11-10 — CoffeeCorner production and clean-copy verification
+Environment: Node.js v24.21.0; npm; Vite 5.3.5; Vue 3.4.35.
+
+PASS: npm run build (workspace, final source)
+34 modules; dist/index.html 0.62 kB (gzip 0.37), CSS 16.97 kB (gzip 4.46), JS 72.49 kB (gzip 28.69).
+
+PASS: temporary copy without .git, node_modules or dist, followed by npm ci --offline --no-audit --no-fund and npm run build.
+Path: /tmp/coffeecorner-clean-aalwRW; final source files copied from workspace before the last clean install/build.
+38 packages installed from local npm cache. Final build output hashes match workspace: index-Chc3rTZ4.css and index-eQNsDg3U.js.
+Initial sandbox attempt failed EPERM executing esbuild; rerun outside sandbox completed. This is an environment limitation, not an application failure.
+npm emitted its install-script policy notice for esbuild; no install or build failure on final run.
+
+PASS: git diff --check.
+No lint/typecheck command is configured; project is JavaScript. No unsupported lint/typecheck PASS is claimed.

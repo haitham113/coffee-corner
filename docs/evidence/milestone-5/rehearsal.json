@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-10T12:17:18.688Z",
+  "browser": "157.0.8103.38",
+  "baseURL": "http://127.0.0.1:4173",
+  "results": [
+    {
+      "name": "1440-no-preference",
+      "status": "PASS",
+      "accessibility": {
+        "version": "4.10.3",
+        "violations": 0,
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      "expandedAccessibility": {
+        "version": "4.10.3",
+        "violations": 0,
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      "paths": "skip link, menu, category, disclosure, About, Location, sample directions popup, local newsletter, keyboard return to top"
+    },
+    {
+      "name": "1440-reduce",
+      "status": "PASS",
+      "accessibility": {
+        "version": "4.10.3",
+        "violations": 0,
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      "expandedAccessibility": {
+        "version": "4.10.3",
+        "violations": 0,
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      "paths": "skip link, menu, category, disclosure, About, Location, sample directions popup, local newsletter, keyboard return to top"
+    },
+    {
+      "name": "390-no-preference",
+      "status": "PASS",
+      "accessibility": {
+        "version": "4.10.3",
+        "violations": 0,
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      "expandedAccessibility": {
+        "version": "4.10.3",
+        "violations": 0,
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      "paths": "skip link, menu, category, disclosure, About, Location, sample directions popup, local newsletter, keyboard return to top"
+    },
+    {
+      "name": "390-reduce",
+      "status": "PASS",
+      "accessibility": {
+        "version": "4.10.3",
+        "violations": 0,
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      "expandedAccessibility": {
+        "version": "4.10.3",
+        "violations": 0,
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      "paths": "skip link, menu, category, disclosure, About, Location, sample directions popup, local newsletter, keyboard return to top"
+    }
+  ],
+  "runtimeErrors": [],
+  "failedRequests": [],
+  "externalProvider": "NOT VERIFIED; popup navigation fulfilled locally"
+}

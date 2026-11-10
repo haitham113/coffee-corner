@@ -37,7 +37,7 @@ const visibleItems = computed(() => selectedCategory.value === 'Coffee'
         </button>
       </div>
       <p class="sr-only" role="status">{{ selectedCategory === 'Coffee' ? 'Featured selection' : selectedCategory }}: {{ visibleItems.length }} items.</p>
-      <div id="featured-menu" class="menu-grid" :aria-label="selectedCategory === 'Coffee' ? 'Featured menu' : selectedCategory">
+      <div id="featured-menu" class="menu-grid" role="region" :aria-label="selectedCategory === 'Coffee' ? 'Featured menu' : selectedCategory">
         <article v-for="item in visibleItems" :key="item.name" class="menu-card" :class="{ 'menu-card-text': !item.image }">
           <picture v-if="item.image" class="media-slot product-media">
             <source :srcset="`/assets/images/${item.image}-420.webp 420w, /assets/images/${item.image}-720.webp 720w`" sizes="(max-width: 480px) 112px, (max-width: 900px) 45vw, 22vw" type="image/webp" />

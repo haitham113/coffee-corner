@@ -82,7 +82,7 @@ Status reconciliation is mandatory bookkeeping and is the sole permitted edit wh
 | 2. Original assets and logo | 🟢 COMPLETE | Original logo/favicons and all required optimized images exist, load in the app, have correct crops/text alternatives and provenance; no generated text artifacts or stretched images. |
 | 3. Hero and menu | 🟢 COMPLETE | Desktop/mobile header, hero and menu match reference composition closely; all navigation, categories and full-menu behavior work by mouse, touch simulation and keyboard; no misleading Order Now flow. |
 | 4. Story, location, CTA and footer | 🟢 COMPLETE | All remaining sections match their desktop/mobile layouts; directions, footer links and newsletter demo behave honestly; focus and contrast remain usable. |
-| 5. Visual calibration and delivery | ⚪ NOT STARTED | Full-page desktop/mobile comparison ledger is resolved, regressions pass, production build and fresh setup work, portfolio documentation is accurate, and final readiness table is evidence-based. |
+| 5. Visual calibration and delivery | 🟢 COMPLETE | Full-page desktop/mobile comparison ledger is resolved, regressions pass, production build and fresh setup work, portfolio documentation is accurate, and final readiness table is evidence-based. |
 
 # Milestone 0 — Repository Assessment and Implementation Plan `[🟢 COMPLETE]`
 
@@ -252,9 +252,9 @@ Fix approved Milestone 4 findings only. Repeat affected desktop/mobile screensho
 Status update: before ending, update the Prompt 4C heading flag based on the actual result. Then inspect Prompts 4, 4A, 4B and 4C, recompute the Milestone 4 heading, and synchronize the Milestone Gates table. Milestone 4 is COMPLETE only when all four prompts are COMPLETE and its gate passes.
 ```
 
-# Milestone 5 — Visual Calibration and Portfolio Delivery `[⚪ NOT STARTED]`
+# Milestone 5 — Visual Calibration and Portfolio Delivery `[🟢 COMPLETE]`
 
-## Prompt 5 — Implement `[⚪ NOT STARTED]`
+## Prompt 5 — Implement `[🟢 COMPLETE]`
 
 ```text
 Read the specification, image, current app and accumulated discrepancy ledger. Implement final calibration only. Capture full-page and section-level screenshots at 1440 and 390 px, plus reflow widths 1280/768/375/320. Correct material differences in spacing, line wraps, proportions, picture focal points, transitions and visual rhythm while preserving semantic/accessibility behavior. Make final responsive image/performance refinements. Write concise README and portfolio handoff instructions explaining sample data and nontransactional demo behavior, commands, generated image provenance, visual comparison process and known limitations. Avoid adding features.
@@ -264,7 +264,7 @@ Run build, interaction regressions, automated accessibility check if available, 
 Status update: before ending, update the Prompt 5 heading flag based on the actual result. Then inspect Prompts 5, 5A, 5B and 5C, recompute the Milestone 5 heading, and synchronize the Milestone Gates table. Milestone 5 is COMPLETE only when all four prompts are COMPLETE and its gate passes.
 ```
 
-## Prompt 5A — Verify `[⚪ NOT STARTED]`
+## Prompt 5A — Verify `[🟢 COMPLETE]`
 
 ```text
 Modify nothing. Perform final real-browser visual audit of all sections at 1440/390 px against the actual reference image, plus 1280/768/375/320 reflow. Report a section-by-section discrepancy ledger and whether each major mismatch is resolved. Run production build, fresh install/build from a clean checkout or temporary copy, keyboard navigation, reduced-motion check, category/menu/full-menu/newsletter/directions paths, missing-image/console/network checks, automated accessibility and Lighthouse when supported. Record actual tool versions, viewports, screenshots, scores and failures. Mark unavailable proof NOT VERIFIED; never infer an 'identical' result solely from code.
@@ -272,7 +272,7 @@ Modify nothing. Perform final real-browser visual audit of all sections at 1440/
 Status update: before ending, update the Prompt 5A heading flag based on the actual result. Then inspect Prompts 5, 5A, 5B and 5C, recompute the Milestone 5 heading, and synchronize the Milestone Gates table. Milestone 5 is COMPLETE only when all four prompts are COMPLETE and its gate passes. This status-only edit is permitted despite the read-only instruction.
 ```
 
-## Prompt 5B — Final Art Direction, Accessibility and Repository Audit `[⚪ NOT STARTED]`
+## Prompt 5B — Final Art Direction, Accessibility and Repository Audit `[🟢 COMPLETE]`
 
 ```text
 Modify nothing. As a critical creative director plus frontend reviewer, judge visual fidelity and quality of the original imagery/logo, browser reflow, accessibility and interaction truthfulness. Inspect the whole repository for TypeScript, secrets, unlicensed assets, debug remnants, dead links, unused files, giant images, misleading README claims and presentation-only phone chrome copied into the live page. Classify Critical/High/Medium/Low findings with visual/behavior evidence, affected path and smallest fix. Include regressions against every prior gate.
@@ -280,7 +280,7 @@ Modify nothing. As a critical creative director plus frontend reviewer, judge vi
 Status update: before ending, update the Prompt 5B heading flag based on the actual result. Then inspect Prompts 5, 5A, 5B and 5C, recompute the Milestone 5 heading, and synchronize the Milestone Gates table. Milestone 5 is COMPLETE only when all four prompts are COMPLETE and its gate passes. This status-only edit is permitted despite the read-only instruction.
 ```
 
-## Prompt 5C — Fix and Revalidate `[⚪ NOT STARTED]`
+## Prompt 5C — Fix and Revalidate `[🟢 COMPLETE]`
 
 ```text
 Fix approved final findings only, without feature expansion. Repeat all affected screenshot comparisons, interaction checks, accessibility/build/fresh-setup checks and earlier gate regressions. Update the discrepancy ledger and README honestly. Report PASS/FAIL/NOT VERIFIED; unresolved Critical/High gate violations block delivery. Stop after Milestone 5.
@@ -288,7 +288,7 @@ Fix approved final findings only, without feature expansion. Repeat all affected
 Status update: before ending, update the Prompt 5C heading flag based on the actual result. Then inspect Prompts 5, 5A, 5B and 5C, recompute the Milestone 5 heading, and synchronize the Milestone Gates table. Milestone 5 is COMPLETE only when all four prompts are COMPLETE and its gate passes.
 ```
 
-# Final Critical-Path Rehearsal `[⚪ NOT STARTED]`
+# Final Critical-Path Rehearsal `[🟢 COMPLETE]`
 
 ```text
 Modify nothing. From a clean browser session at desktop and mobile sizes, load the production build; inspect hero; use View Menu; switch menu categories; open/close Full Menu; navigate About and Location; follow Get Directions; validate the newsletter demo; return to top with keyboard only; repeat with reduced motion. Capture visible outcomes, errors, broken requests, focus behavior and full-page screenshots. Report PASS/FAIL/NOT VERIFIED for each path. Never report a real order, subscription or verified storefront.
@@ -296,7 +296,7 @@ Modify nothing. From a clean browser session at desktop and mobile sizes, load t
 Status update: before ending, update the Final Critical-Path Rehearsal heading flag based on the actual result. This final gate has no parent milestone, so update only its own heading. This status-only edit is permitted despite the read-only instruction.
 ```
 
-# Final Readiness Check `[⚪ NOT STARTED]`
+# Final Readiness Check `[🟢 COMPLETE]`
 
 ```text
 Modify nothing. Read the CoffeeCorner specification, the actual attached image, all milestone evidence, discrepancy ledger, final audit and rehearsal. Produce a table with columns Requirement | Evidence | Status | Required Action. Status must be PASS, FAIL or NOT VERIFIED. Cover Vue JavaScript stack, desktop/mobile fidelity, 320–1440 px reflow, original imagery, original logo, interaction truthfulness, accessibility, production build, performance if measured, clean setup and portfolio documentation. Give one verdict: READY FOR PORTFOLIO DELIVERY only if every acceptance-critical item passes and no material reference discrepancy remains; otherwise NOT READY FOR PORTFOLIO DELIVERY. Do not modify code or invent evidence.

@@ -72,3 +72,19 @@ Complete implementation/review/discrepancy notes: [Milestone 4 review](milestone
 | 4 | Regression | Earlier header/hero/menu | PASS | All 15 previous-suite checks pass in `regression/verification.json`; no runtime/network/image errors. | None. |
 | 4 | Review/fix | Standards and Spec | PASS | One Medium coverage finding fixed and revalidated; final independent reviews found no acceptance-critical issue. | Proceed to Milestone 5. |
 | 4 | Other platforms/audits | Firefox/Safari, physical devices, screen reader, full WCAG/Lighthouse | NOT VERIFIED | Not performed in this milestone. Chromium evidence is not cross-browser certification. | Final delivery audit. |
+
+## Milestone 5 — 2026-11-10
+
+[Final review, section comparison ledger, audit and readiness table](milestone-5-review.md). Final production screenshots and machine-readable reports are in `evidence/milestone-5/`.
+
+| Check | Status | Evidence and disposition |
+| --- | --- | --- |
+| Final desktop/mobile art direction | PASS | Actual reference compared with 1440/390 full and section captures, plus 320/768 inspections. Real bold faces restored reference hierarchy; mobile menu heading remains two lines. No material unexplained discrepancy remains. |
+| Six-width reflow and earlier gates | PASS | All 30 regression checks; exact scroll widths, expected content order, working keyboard/touch interactions, no broken images/runtime/network errors. |
+| Accessibility and final rehearsal | PASS | Eight axe scans with WCAG2.2AA tags: zero violations. Four keyboard-only desktop/mobile journeys with normal/reduced motion pass. Fixed category-transition contrast dip and named menu region. Photo/pseudo-element contrast review items manually inspected. |
+| Production build / fresh setup | PASS | Vite build succeeds; temporary-copy clean dependency install and build match final workspace hashes. Sandbox-only esbuild EPERM resolved outside sandbox. |
+| Production Lighthouse | PASS | 12.8.2: mobile97/100/100 and desktop100/100/100 performance/accessibility/best practices. Lab measurements, not field guarantees. |
+| Repository and handoff | PASS | JavaScript only; no apparent secrets/debug/dead controls; original image/vector provenance; README updated with run/audit/root-host instructions and honest demo semantics. |
+| Optional broader validation | NOT VERIFIED | Firefox/Safari, physical devices, screen reader, full WCAG certification, live Maps content, public hosting and nested-path deployment. No claims made for these. |
+
+Final verdict: **READY FOR PORTFOLIO DELIVERY** as a static portfolio demo at a host root. No code changes or feature work remain in the approved five-milestone scope.
