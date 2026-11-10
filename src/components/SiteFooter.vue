@@ -12,7 +12,7 @@ function previewNewsletter() {
   <footer class="site-footer">
     <div class="container footer-grid">
       <div class="footer-brand">
-        <img class="footer-logo" src="/assets/brand/logo-lockup-light.svg" alt="Brew &amp; Co. — Specialty Coffee" width="230" height="64" loading="lazy" />
+        <img class="footer-logo" src="/assets/brand/logo-lockup-light.svg" alt="CoffeeCorner — Specialty Coffee" width="230" height="64" loading="lazy" />
         <p>Great coffee. Brighter days. Join our community and be the first to know about new drinks, events, and special offers.</p>
       </div>
       <nav class="footer-links" aria-label="Footer navigation">
@@ -46,7 +46,7 @@ function previewNewsletter() {
       </div>
     </div>
     <div class="container footer-bottom">
-      <p>© 2026 Brew &amp; Co. All rights reserved. <span class="portfolio-note">Portfolio demo.</span></p>
+      <p>© 2026 CoffeeCorner All rights reserved. <span class="portfolio-note">Portfolio demo.</span></p>
       <div class="footer-legal"><span>Privacy Policy</span><span>Terms of Service</span></div>
     </div>
   </footer>

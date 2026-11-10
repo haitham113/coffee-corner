@@ -44,7 +44,7 @@ onUnmounted(() => {
 <template>
   <header ref="header" class="site-header" @focusout="onFocusout">
     <div class="container header-inner">
-      <a class="brand" href="#top" aria-label="Brew and Co., home" @click="closeMenu()">
+      <a class="brand" href="#top" aria-label="CoffeeCorner, home" @click="closeMenu()">
         <picture>
           <source media="(max-width: 700px)" srcset="/assets/brand/logo-compact-dark.svg" />
           <img class="brand-logo" src="/assets/brand/logo-lockup-dark.svg" alt="" width="230" height="64" />

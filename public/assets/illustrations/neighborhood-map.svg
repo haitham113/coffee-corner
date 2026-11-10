@@ -19,7 +19,7 @@
   <ellipse cx="483" cy="278" rx="28" ry="9" fill="#654022" opacity=".15"/>
   <path fill="#9b5f28" stroke="#fffdf8" stroke-width="4" d="M483 197a29 29 0 0 0-29 29c0 22 29 51 29 51s29-29 29-51a29 29 0 0 0-29-29Z"/>
   <circle cx="483" cy="225" r="10" fill="#fffdf8"/>
-  <rect x="527" y="213" width="151" height="44" rx="9" fill="#fffdf8"/>
+  <rect x="527" y="213" width="180" height="44" rx="9" fill="#fffdf8"/>
   <path d="M542 225h14v13h-14zM556 227h3a4 4 0 0 1 0 7h-3m-14 7h17" stroke="#9b5f28" stroke-width="2"/>
-  <text x="571" y="240" fill="#42463c" font-family="Arial, sans-serif" font-size="17" font-weight="700">Brew &amp; Co.</text>
+  <text x="571" y="240" fill="#42463c" font-family="Arial, sans-serif" font-size="17" font-weight="700">CoffeeCorner</text>
 </svg>

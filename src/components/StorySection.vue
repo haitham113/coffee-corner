@@ -16,7 +16,7 @@ const benefits = [
       <div class="story-copy">
         <p class="eyebrow">OUR STORY</p>
         <h2 id="story-title">A Neighborhood Coffee Shop<br />with a <em>Bigger Purpose</em></h2>
-        <p>At Brew &amp; Co., we believe great coffee brings people together. We source high-quality beans, support sustainable farmers, and create a welcoming space for our community.</p>
+        <p>At CoffeeCorner, we believe great coffee brings people together. We source high-quality beans, support sustainable farmers, and create a welcoming space for our community.</p>
       </div>
       <ul class="story-benefits">
         <li v-for="benefit in benefits" :key="benefit.title">

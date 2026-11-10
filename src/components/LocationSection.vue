@@ -7,7 +7,7 @@
         <p>We’re in the heart of the city, easy to find and always happy to see you.</p>
       </div>
       <figure class="location-map">
-        <img src="/assets/illustrations/neighborhood-map.svg" width="800" height="460" alt="Illustrative neighborhood map with a sample Brew and Co. marker; not accurate cartography." loading="lazy" />
+        <img src="/assets/illustrations/neighborhood-map.svg" width="800" height="460" alt="Illustrative neighborhood map with a sample CoffeeCorner marker; not accurate cartography." loading="lazy" />
         <figcaption>Illustrative map · Sample location</figcaption>
       </figure>
       <div class="location-contact">
@@ -22,7 +22,7 @@
           </div>
           <div>
             <dt><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="m5 2 5 5-3 3c1 3 4 6 7 7l3-3 5 5-2 3C11 24 0 13 2 5Z" /></svg><span>Contact</span></dt>
-            <dd>+20 123 456 7890<br />hello@brewandco.com</dd>
+            <dd>+20 123 456 7890<br />hello@coffeecorner.example</dd>
           </div>
         </dl>
         <a class="button directions-link" href="https://www.google.com/maps/search/?api=1&amp;query=123%20Coffee%20Street%2C%20Cairo%2C%20Egypt" target="_blank" rel="noopener noreferrer" aria-describedby="location-demo-note">Get Directions <span aria-hidden="true">→</span><span class="sr-only"> — search sample address in Google Maps (opens a new tab)</span></a>

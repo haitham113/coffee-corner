@@ -77,7 +77,7 @@ try {
 
   await check('Contact details are sample text and social/legal labels have no dead links', async () => {
     const text = await page.locator('.location-contact').innerText()
-    for (const value of ['123 Coffee Street', 'Cairo, Egypt', '7:00 AM–9:00 PM', '8:00 AM–10:00 PM', '+20 123 456 7890', 'hello@brewandco.com', 'Sample portfolio details']) assert.ok(text.includes(value), value)
+    for (const value of ['123 Coffee Street', 'Cairo, Egypt', '7:00 AM–9:00 PM', '8:00 AM–10:00 PM', '+20 123 456 7890', 'hello@coffeecorner.example', 'Sample portfolio details']) assert.ok(text.includes(value), value)
     assert.equal(await page.locator('a[href^="tel:"], a[href^="mailto:"], a[href="#"]').count(), 0)
     assert.equal(await page.locator('.social-icons a, .footer-legal a').count(), 0)
     assert.equal(await page.locator('.social-icons [role="img"]').count(), 4)

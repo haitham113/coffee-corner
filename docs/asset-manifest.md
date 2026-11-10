@@ -18,7 +18,7 @@ Every image prompt specified photorealistic editorial café photography with war
 
 ## Brand system
 
-The original cup mark is a hand-authored SVG: a rounded caramel cup, asymmetrical handle, two steam strokes, saucer and coffee-bean counterform. It is not traced from the reference. Desktop and compact lockups use real SVG text for `Brew & Co.` and `SPECIALTY COFFEE`, with dark and light variants. The favicon uses the same cup silhouette.
+The original cup mark is a hand-authored SVG: a rounded caramel cup, asymmetrical handle, two steam strokes, saucer and coffee-bean counterform. It is not traced from the reference. Desktop and compact lockups use real SVG text for `CoffeeCorner` and `SPECIALTY COFFEE`, with dark and light variants. The favicon uses the same cup silhouette.
 
 | File | Purpose |
 | --- | --- |

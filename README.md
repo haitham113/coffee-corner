@@ -1,6 +1,6 @@
 # CoffeeCorner
 
-A responsive Vue 3 + JavaScript portfolio demo, built with Vite from the supplied Brew & Co. desktop/mobile composition. All five implementation milestones are complete. See the [final review and readiness table](docs/milestone-5-review.md).
+A responsive Vue 3 + JavaScript portfolio demo, built with Vite from the supplied Brew & Co. desktop/mobile composition. The visible brand is CoffeeCorner, as requested after the original design implementation. All five implementation milestones are complete. See the [final review and readiness table](docs/milestone-5-review.md).
 
 ## Run and build
 
