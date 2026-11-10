@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" fill="none">
+  <title>Illustrative neighborhood map</title>
+  <desc>An original decorative street grid, river, parks and coffee-cup marker. This is a sample illustration, not accurate cartography.</desc>
+  <defs>
+    <pattern id="blocks" width="110" height="100" patternTransform="rotate(-22)" patternUnits="userSpaceOnUse">
+      <path fill="#e6e1d8" d="M8 8h42v33H8zM60 8h42v33H60zM8 51h42v41H8zM60 51h42v41H60z"/>
+      <path stroke="#fffdf8" stroke-width="7" d="M0 46h110M55 0v100"/>
+      <path stroke="#d6d0c7" stroke-width="1" d="M0 46h110M55 0v100"/>
+    </pattern>
+  </defs>
+  <path fill="#f0ede5" d="M0 0h800v460H0z"/>
+  <path fill="url(#blocks)" d="M0 0h800v460H0z"/>
+  <path fill="#d2dfbf" d="m60 22 130-22 35 72-102 50-70-25zM568 300l154-45 64 154-177 51zM457 23l91 12-26 66-71-27z"/>
+  <path stroke="#e6dfb9" stroke-width="87" d="M258-30c-25 139 137 160 91 287S273 376 340 490"/>
+  <path stroke="#a9d4df" stroke-width="60" d="M258-30c-25 139 137 160 91 287S273 376 340 490"/>
+  <path stroke="#fffdf8" stroke-width="15" d="m-20 351 840-222M411-20l187 500M52-20l93 500"/>
+  <path stroke="#dfc88e" stroke-width="6" d="m-20 351 840-222M411-20l187 500"/>
+  <path stroke="#fffdf8" stroke-width="12" d="m276 164 91-24m-56 161 81-22"/>
+  <ellipse cx="483" cy="278" rx="28" ry="9" fill="#654022" opacity=".15"/>
+  <path fill="#9b5f28" stroke="#fffdf8" stroke-width="4" d="M483 197a29 29 0 0 0-29 29c0 22 29 51 29 51s29-29 29-51a29 29 0 0 0-29-29Z"/>
+  <circle cx="483" cy="225" r="10" fill="#fffdf8"/>
+  <rect x="527" y="213" width="151" height="44" rx="9" fill="#fffdf8"/>
+  <path d="M542 225h14v13h-14zM556 227h3a4 4 0 0 1 0 7h-3m-14 7h17" stroke="#9b5f28" stroke-width="2"/>
+  <text x="571" y="240" fill="#42463c" font-family="Arial, sans-serif" font-size="17" font-weight="700">Brew &amp; Co.</text>
+</svg>

@@ -55,3 +55,20 @@ Full implementation, comparison, independent review and revalidation notes: [Mil
 | 3 | Production runtime | Console/network | PASS | No console errors, failing requests/responses or missing image assets. | None. |
 | 3 | Review/revalidation | Accepted findings | PASS | Fixed stale README and visual crop/seam/tablet-copy findings. Final build and production browser suite pass. Standards axis: no findings; Spec axis: one Low, fixed. | Proceed to Milestone 4 only when requested. |
 | 3 | Other browsers/audits | Firefox/Safari, screen reader, automated WCAG/Lighthouse | NOT VERIFIED | Not measured in this milestone. Chromium evidence does not establish cross-browser or complete WCAG compliance. | Final delivery audits remain Milestone 5. |
+
+
+## Milestone 4 — 2026-11-10
+
+Complete implementation/review/discrepancy notes: [Milestone 4 review](milestone-4-review.md). Evidence is retained under `docs/evidence/milestone-4/`.
+
+| Milestone | Viewport | Check | Status | Evidence and discrepancy | Required action |
+| --- | --- | --- | --- | --- | --- |
+| 4 | Production build | Vue JavaScript | PASS | Vite 5.3.5, 34 modules; CSS 16.77 kB and JS 72.48 kB. | None. |
+| 4 | 320/375/390/768/1280/1440 px | Reflow/assets/order/CTA coverage | PASS | Exact viewport-matched scroll widths, no broken images, mobile story image-first/map-before-contact; photo covers CTA. `verification.json` plus per-width captures. | Carry forward during Milestone 5. |
+| 4 | 1440/390 plus 320/768 | Story/location/CTA/footer composition | PASS | Actual browser comparison with reference; fixed bright-photo benefit text and 320 px photo coverage gap. Original illustrative map and compact demo labels are justified differences. | Final whole-page calibration remains Milestone 5. |
+| 4 | Desktop/mobile | Sample directions, footer and CTA links | PASS | New-tab sample search URL observed; all internal anchors work; contacts remain text and no dead social/legal links. | Live provider results NOT VERIFIED, and no real storefront claimed. |
+| 4 | Invalid/valid input | Newsletter demo | PASS | Native validation; local-only acknowledgement; zero submission requests/storage writes; editing/reloading clears status. `newsletter-invalid.jpg`, `newsletter-valid.jpg`. | None. |
+| 4 | 320/mobile touch | Focus, targets, reduced motion and contrast | PASS | New targets at least 44 px tall with visible outlines; touch paths pass; sampled solid colors at least 5.17:1. Photo overlays inspected visually. | Full automated audit remains Milestone 5. |
+| 4 | Regression | Earlier header/hero/menu | PASS | All 15 previous-suite checks pass in `regression/verification.json`; no runtime/network/image errors. | None. |
+| 4 | Review/fix | Standards and Spec | PASS | One Medium coverage finding fixed and revalidated; final independent reviews found no acceptance-critical issue. | Proceed to Milestone 5. |
+| 4 | Other platforms/audits | Firefox/Safari, physical devices, screen reader, full WCAG/Lighthouse | NOT VERIFIED | Not performed in this milestone. Chromium evidence is not cross-browser certification. | Final delivery audit. |

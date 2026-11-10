@@ -34,3 +34,10 @@ The original cup mark is a hand-authored SVG: a rounded caramel cup, asymmetrica
 - Intrinsic dimensions are declared in the Vue templates to reserve layout space.
 - AVIF was not exported because the available Pillow build lacks AVIF support; WebP plus optimized JPEG provides the milestone’s modern-format and fallback coverage without adding a dependency.
 - `coffee_corner_design.png` remains a repository-only comparison reference and is never requested by the app.
+
+
+## Milestone 4 illustrative map and CTA composition
+
+`public/assets/illustrations/neighborhood-map.svg` is an original hand-authored 800 × 460 SVG. It uses an abstract river, street grid, parks, a marker and a brand label; it has no real geographic coordinates or third-party map tiles. Visible caption and alt text identify it as a sample illustration. The sample-address search is a separate, explicitly labeled action.
+
+The existing blank-cup CTA photograph is now displayed full-bleed. The original dark vector lockup is overlaid at 74.5% horizontal / 47% vertical within the image, so the wordmark stays on the cup as the whole image scales. Mobile scales the same composition and keeps a 672 px minimum intrinsic canvas width to cover a 288 px section at 320 px without stretching. A dark overlay preserves copy legibility. No new generated raster image was needed.

@@ -81,7 +81,7 @@ Status reconciliation is mandatory bookkeeping and is the sole permitted edit wh
 | 1. Foundation and design system | 🟢 COMPLETE | Vue JavaScript app starts and builds; responsive shell and semantic section skeleton display without overflow at 320/390/768/1440 px; tokens, typography and comparison process documented. |
 | 2. Original assets and logo | 🟢 COMPLETE | Original logo/favicons and all required optimized images exist, load in the app, have correct crops/text alternatives and provenance; no generated text artifacts or stretched images. |
 | 3. Hero and menu | 🟢 COMPLETE | Desktop/mobile header, hero and menu match reference composition closely; all navigation, categories and full-menu behavior work by mouse, touch simulation and keyboard; no misleading Order Now flow. |
-| 4. Story, location, CTA and footer | ⚪ NOT STARTED | All remaining sections match their desktop/mobile layouts; directions, footer links and newsletter demo behave honestly; focus and contrast remain usable. |
+| 4. Story, location, CTA and footer | 🟢 COMPLETE | All remaining sections match their desktop/mobile layouts; directions, footer links and newsletter demo behave honestly; focus and contrast remain usable. |
 | 5. Visual calibration and delivery | ⚪ NOT STARTED | Full-page desktop/mobile comparison ledger is resolved, regressions pass, production build and fresh setup work, portfolio documentation is accurate, and final readiness table is evidence-based. |
 
 # Milestone 0 — Repository Assessment and Implementation Plan `[🟢 COMPLETE]`
@@ -216,9 +216,9 @@ Fix approved Milestone 3 findings only. Re-run interaction/keyboard tests and de
 Status update: before ending, update the Prompt 3C heading flag based on the actual result. Then inspect Prompts 3, 3A, 3B and 3C, recompute the Milestone 3 heading, and synchronize the Milestone Gates table. Milestone 3 is COMPLETE only when all four prompts are COMPLETE and its gate passes.
 ```
 
-# Milestone 4 — Story, Location, CTA and Footer `[⚪ NOT STARTED]`
+# Milestone 4 — Story, Location, CTA and Footer `[🟢 COMPLETE]`
 
-## Prompt 4 — Implement `[⚪ NOT STARTED]`
+## Prompt 4 — Implement `[🟢 COMPLETE]`
 
 ```text
 Read the specification, reference image and existing implementation. Implement Milestone 4 only. Recreate the dark-green story area with editorial interior image and three benefits; desktop and mobile compositions from the reference; location details and an original stylized map; photographic CTA; and footer with brand, quick links, social presentation, newsletter demo and legal copy. Make Find Us/Location scroll correctly. Get Directions may open a map search for the sample address with an honest accessible label. Display the reference's sample business text while ensuring invalid contact destinations are not clickable. Newsletter must provide local validation and a clearly identified demo-only acknowledgement, with no claim of remote subscription. Do not create dead social/legal links.
@@ -228,7 +228,7 @@ Add only meaningful interaction validation, run build, real-browser link/form/ke
 Status update: before ending, update the Prompt 4 heading flag based on the actual result. Then inspect Prompts 4, 4A, 4B and 4C, recompute the Milestone 4 heading, and synchronize the Milestone Gates table. Milestone 4 is COMPLETE only when all four prompts are COMPLETE and its gate passes.
 ```
 
-## Prompt 4A — Verify `[⚪ NOT STARTED]`
+## Prompt 4A — Verify `[🟢 COMPLETE]`
 
 ```text
 Modify nothing. Compare story/location/CTA/footer against the desktop and phone interiors. Inspect actual mobile order, photo crop, map presentation, contact spacing, footer density, heading hierarchy and CTA contrast. Try every link/button, invalid and valid newsletter input, keyboard focus, sample directions behavior and 320 px reflow. Recheck header, menu and hero critical paths. Report PASS/FAIL/NOT VERIFIED with screenshots/observations and ranked discrepancies. Do not assert a subscription was submitted or a real address was found.
@@ -236,7 +236,7 @@ Modify nothing. Compare story/location/CTA/footer against the desktop and phone 
 Status update: before ending, update the Prompt 4A heading flag based on the actual result. Then inspect Prompts 4, 4A, 4B and 4C, recompute the Milestone 4 heading, and synchronize the Milestone Gates table. Milestone 4 is COMPLETE only when all four prompts are COMPLETE and its gate passes. This status-only edit is permitted despite the read-only instruction.
 ```
 
-## Prompt 4B — Honest Demo and Responsive Review `[⚪ NOT STARTED]`
+## Prompt 4B — Honest Demo and Responsive Review `[🟢 COMPLETE]`
 
 ```text
 Modify nothing. Act as a skeptical prospective client and accessibility reviewer. Seek broken or misleading ordering, newsletter, address, phone, email, legal and social interactions; inspect mobile story/map/footer order, contrast, alt text, focus, touch areas and image loading. Classify findings Critical/High/Medium/Low with observed evidence, impact, path and smallest fix. Check regression of earlier desktop/mobile sections.
@@ -244,7 +244,7 @@ Modify nothing. Act as a skeptical prospective client and accessibility reviewer
 Status update: before ending, update the Prompt 4B heading flag based on the actual result. Then inspect Prompts 4, 4A, 4B and 4C, recompute the Milestone 4 heading, and synchronize the Milestone Gates table. Milestone 4 is COMPLETE only when all four prompts are COMPLETE and its gate passes. This status-only edit is permitted despite the read-only instruction.
 ```
 
-## Prompt 4C — Fix and Revalidate `[⚪ NOT STARTED]`
+## Prompt 4C — Fix and Revalidate `[🟢 COMPLETE]`
 
 ```text
 Fix approved Milestone 4 findings only. Repeat affected desktop/mobile screenshots, link/form/keyboard checks, build and earlier section critical paths. Report PASS/FAIL/NOT VERIFIED evidence, unresolved issues and updated discrepancy ledger. Stop after Milestone 4.

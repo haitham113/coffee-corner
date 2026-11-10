@@ -3,7 +3,7 @@ import { mkdir, writeFile } from 'node:fs/promises'
 
 // Use a locally installed Playwright, or point to an existing installation.
 const { chromium } = await import(process.env.PLAYWRIGHT_MODULE || 'playwright')
-const evidencePath = 'docs/evidence/milestone-3'
+const evidencePath = process.env.EVIDENCE_PATH || 'docs/evidence/milestone-3'
 await mkdir(evidencePath, { recursive: true })
 const browser = await chromium.launch({
   executablePath: process.env.CHROME_PATH || undefined,
