@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 174 54" role="img" aria-labelledby="title desc">
+  <title id="title">Brew &amp; Co.</title>
+  <desc id="desc">Compact Brew &amp; Co. wordmark with an original steaming cup symbol.</desc>
+  <g transform="translate(0 1) scale(.76)" fill="none" stroke="#f7f2e8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M13 22h33l-2.2 19.2A8 8 0 0 1 35.9 48H23.1a8 8 0 0 1-7.9-6.8L13 22Z" fill="#af7137" stroke-width="3.2"/>
+    <path d="M46 27h3.3a7.2 7.2 0 0 1 0 14.4h-5M9 52c8.5 2.8 36.5 2.8 45 0M24 17c-3.4-4.7 3.8-5.5.7-10M34 17c-3.4-4.7 3.8-5.5.7-10" stroke-width="3.1"/>
+  </g>
+  <text x="52" y="28" fill="#f7f2e8" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="700">Brew &amp; Co.</text>
+  <text x="53" y="41" fill="#f7f2e8" font-family="Arial, Helvetica, sans-serif" font-size="6.6" font-weight="700" letter-spacing="1.8">SPECIALTY COFFEE</text>
+</svg>

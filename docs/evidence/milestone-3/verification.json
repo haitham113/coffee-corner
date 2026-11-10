@@ -1,0 +1,119 @@
+{
+  "date": "2026-11-10T11:33:39.719Z",
+  "browser": "157.0.8103.38",
+  "baseURL": "http://127.0.0.1:4173",
+  "results": [
+    {
+      "name": "320px: reflow, assets, featured products and capture",
+      "status": "PASS",
+      "detail": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "brokenImages": [],
+        "heroSource": "hero-mobile-780x1040.webp"
+      }
+    },
+    {
+      "name": "375px: reflow, assets, featured products and capture",
+      "status": "PASS",
+      "detail": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "brokenImages": [],
+        "heroSource": "hero-mobile-780x1040.webp"
+      }
+    },
+    {
+      "name": "390px: reflow, assets, featured products and capture",
+      "status": "PASS",
+      "detail": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "brokenImages": [],
+        "heroSource": "hero-mobile-780x1040.webp"
+      }
+    },
+    {
+      "name": "768px: reflow, assets, featured products and capture",
+      "status": "PASS",
+      "detail": {
+        "viewport": 768,
+        "scrollWidth": 768,
+        "brokenImages": [],
+        "heroSource": "hero-960.webp"
+      }
+    },
+    {
+      "name": "1280px: reflow, assets, featured products and capture",
+      "status": "PASS",
+      "detail": {
+        "viewport": 1280,
+        "scrollWidth": 1280,
+        "brokenImages": [],
+        "heroSource": "hero-1600.webp"
+      }
+    },
+    {
+      "name": "1440px: reflow, assets, featured products and capture",
+      "status": "PASS",
+      "detail": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "brokenImages": [],
+        "heroSource": "hero-1600.webp"
+      }
+    },
+    {
+      "name": "Category controls: all views, keyboard selection and repeat toggling",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Full Menu: keyboard disclosure, all items, focus retained, repeat toggling",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Desktop navigation and hero anchors",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Mobile navigation: keyboard, Escape/focus return, outside click and focus exit",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Mobile navigation closes on desktop resize and stays closed on return",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Mobile 320px: touch targets and horizontally reachable categories",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Reduced motion and visible keyboard focus",
+      "status": "PASS",
+      "detail": {
+        "transition": "1e-05s",
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "scroll": "auto"
+      }
+    },
+    {
+      "name": "Touch simulation: mobile navigation, categories and Full Menu",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Runtime console, network and missing assets",
+      "status": "PASS",
+      "detail": ""
+    }
+  ],
+  "runtimeErrors": [],
+  "failedRequests": []
+}
